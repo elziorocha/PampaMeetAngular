@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './main-content.component.html',
 })
+
 export class MainContentComponent {
 
 }
