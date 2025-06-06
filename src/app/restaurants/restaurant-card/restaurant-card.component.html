@@ -1,21 +1,29 @@
-<main class="max-w-64 flex flex-col gap-2 p-3 cursor-pointer bg-zinc-200 rounded-4xl shadow-md border border-zinc-300
-  hover:bg-zinc-300 transition-colors">
+<main
+  class="max-w-82 flex flex-col gap-2 p-3 cursor-pointer bg-zinc-200 rounded-4xl shadow-md border border-zinc-300 hover:bg-zinc-300 transition-colors">
   <img src="/assets/para-lanches.png" alt="Imagem do restaurante"
     class="rounded-3xl shadow-lg border border-black bg-transparent" />
 
-  <section class="w-full flex justify-between items-center px-2">
-    <span class="w-full font-bold text-lg self-start">
-      Pará Lanches
+  <section class="flex justify-between items-center px-2">
+    <span class="w-full font-bold text-lg self-start truncate">
+      Pará Lanche
     </span>
-
     <span class="text-xs underline text-green-800">
       Aberto
     </span>
   </section>
 
-  <section class="mt-2 flex flex-wrap gap-2 self-end px-2">
-    <lucide-angular [img]="HamburgerIcon" class="size-7 text-gray-800"></lucide-angular>
-    <lucide-angular [img]="PizzaIcon" class="size-7 text-gray-800"></lucide-angular>
-    <lucide-angular [img]="BeerIcon" class="size-7 text-gray-800"></lucide-angular>
+  <section class="flex gap-0.5 items-center px-2 flex-wrap">
+    <lucide-angular [img]="StarIcon" class="size-5 icon-yellow"></lucide-angular>
+    <lucide-angular [img]="StarIcon" class="size-5 icon-yellow"></lucide-angular>
+    <lucide-angular [img]="StarIcon" class="size-5 icon-yellow"></lucide-angular>
+    <lucide-angular [img]="StarHalfIcon" class="size-5 icon-yellow"></lucide-angular>
+    <span class="-ml-1 font-bold text-xl text-yellow-600">4.5</span>
   </section>
+
+  <section class="self-end gap-1.5 flex flex-wrap items-center px-2">
+    <lucide-angular [img]="PizzaIcon" class="size-6 text-gray-800"></lucide-angular>
+    <lucide-angular [img]="HamburgerIcon" class="size-6 text-gray-800"></lucide-angular>
+    <lucide-angular [img]="BeerIcon" class="size-6 text-gray-800"></lucide-angular>
+  </section>
+
 </main>

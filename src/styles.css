@@ -13,3 +13,7 @@
 body {
   @apply bg-neutral-100 font-nunito
 }
+
+.icon-yellow {
+  @apply text-yellow-600 fill-yellow-600
+}

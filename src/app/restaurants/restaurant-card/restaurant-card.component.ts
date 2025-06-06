@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { LucideAngularModule, Hamburger, Pizza, Beer } from 'lucide-angular';
+import { LucideAngularModule, Hamburger, Pizza, Beer, Star, StarHalf } from 'lucide-angular';
 
 @Component({
   selector: 'app-restaurant-card',
@@ -11,4 +11,6 @@ export class RestaurantCardComponent {
   readonly HamburgerIcon = Hamburger;
   readonly PizzaIcon = Pizza;
   readonly BeerIcon = Beer;
+  readonly StarIcon = Star;
+  readonly StarHalfIcon = StarHalf;
 }
