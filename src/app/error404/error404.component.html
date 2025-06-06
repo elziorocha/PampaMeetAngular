@@ -1,0 +1,15 @@
+<main class="flex flex-col gap-6 items-center justify-center h-screen -mt-10">
+  <div class="absolute top-20 -left-40 rounded-full size-64 bg-red-600"></div>
+  <div class="absolute size-64 bg-red-600 -top-28 right-12 rounded-[130%_70%_150%_60%/_60%_90%_100%_150%]"></div>
+
+  <div class="flex items-center gap-7">
+    <h2 class="text-9xl font-bold">ERROR 404</h2>
+    <lucide-angular [img]="CogIcon" class="my-icon size-28"></lucide-angular>
+  </div>
+
+  <h3 class="text-5xl font-semibold">Ops, essa página não existe :(</h3>
+  <button (click)="voltarPagina()"
+    class="text-xl mt-12 bg-red-600 hover:bg-red-500 text-white semibold px-4 py-2 rounded-full cursor-pointer">
+    Voltar para página anterior
+  </button>
+</main>
