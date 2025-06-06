@@ -1,0 +1,21 @@
+<main class="max-w-64 flex flex-col gap-2 p-3 cursor-pointer bg-zinc-200 rounded-4xl shadow-md border border-zinc-300
+  hover:bg-zinc-300 transition-colors">
+  <img src="/assets/para-lanches.png" alt="Imagem do restaurante"
+    class="rounded-3xl shadow-lg border border-black bg-transparent" />
+
+  <section class="w-full flex justify-between items-center px-2">
+    <span class="w-full font-bold text-lg self-start">
+      Pará Lanches
+    </span>
+
+    <span class="text-xs underline text-green-800">
+      Aberto
+    </span>
+  </section>
+
+  <section class="mt-2 flex flex-wrap gap-2 self-end px-2">
+    <lucide-angular [img]="HamburgerIcon" class="size-7 text-gray-800"></lucide-angular>
+    <lucide-angular [img]="PizzaIcon" class="size-7 text-gray-800"></lucide-angular>
+    <lucide-angular [img]="BeerIcon" class="size-7 text-gray-800"></lucide-angular>
+  </section>
+</main>

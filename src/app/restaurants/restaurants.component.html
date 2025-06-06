@@ -1,1 +1,25 @@
-<p>restaurants works!</p>
+<main class="flex flex-col gap-6 h-screen">
+  <app-header></app-header>
+
+  <section class="flex items-center gap-2 px-64">
+    <h2 class="font-semibold text-3xl text-gray-800">Peça agora seu delivery!</h2>
+    <lucide-angular [img]="UtensilsCrossedIcon" class="size-9 text-gray-800"></lucide-angular>
+  </section>
+
+  <div class="flex flex-wrap gap-12 justify-center py-6 px-32">
+    <app-restaurant-card></app-restaurant-card>
+    <app-restaurant-card></app-restaurant-card>
+    <app-restaurant-card></app-restaurant-card>
+    <app-restaurant-card></app-restaurant-card>
+    <app-restaurant-card></app-restaurant-card>
+    <app-restaurant-card></app-restaurant-card>
+    <app-restaurant-card></app-restaurant-card>
+    <app-restaurant-card></app-restaurant-card>
+    <app-restaurant-card></app-restaurant-card>
+    <app-restaurant-card></app-restaurant-card>
+    <app-restaurant-card></app-restaurant-card>
+    <app-restaurant-card></app-restaurant-card>
+  </div>
+
+  <app-footer></app-footer>
+</main>
