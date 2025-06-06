@@ -1,17 +1,20 @@
 <header class="px-8 py-6 flex justify-between items-center w-full text-red-600">
   <div class="absolute -left-10 -top-28 size-80 rounded-[100%_0%_100%_0%/_0%_44%_66%_100%] bg-red-400/30"></div>
 
-  <a href="/" class="flex gap-2 items-center z-50">
+  <a class="flex gap-2 items-center">
     <lucide-angular [img]="BeefIcon" class="my-icon size-14"></lucide-angular>
     <h1 class="italic font-bold text-4xl">PampaFoods</h1>
   </a>
 
   <div class="flex gap-4 text-xl font-semibold">
-    <a href="/restaurantes"
-      class="transition-colors h-full hover:bg-red-200 px-3 py-2 rounded-2xl cursor-pointer">Restaurantes</a>
-    <a href="/sobre" class="transition-colors h-full hover:bg-red-200 px-3 py-2 rounded-2xl cursor-pointer">Sobre</a>
-    <a href="/carreiras"
-      class="transition-colors h-full hover:bg-red-200 px-3 py-2 rounded-2xl cursor-pointer">Carreiras</a>
+    <a [routerLink]="'/restaurantes'"
+      class="transition-colors h-full hover:bg-red-200 px-3 py-2 rounded-2xl cursor-pointer">
+      Restaurantes
+    </a>
+    <a [routerLink]="'/carreiras'"
+      class="transition-colors h-full hover:bg-red-200 px-3 py-2 rounded-2xl cursor-pointer">
+      Carreiras
+    </a>
   </div>
 
   <div class="flex gap-4 text-xl font-semibold">
